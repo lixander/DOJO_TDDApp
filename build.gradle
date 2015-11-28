@@ -4,7 +4,7 @@ sourceSets{
 	main{
 		java
 		{
-			srcDir 'src/co/edu/udea/appempresariales/examples
+			srcDir 'src/co/edu/udea/appempresariales/examples'
 		}
 	}
 	test{
