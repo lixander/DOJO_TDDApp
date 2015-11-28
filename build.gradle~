@@ -1,4 +1,13 @@
 apply plugin: 'java'
+apply plugin: 'jacoco'
+
+test{
+	jacoco{
+		toolversion = '0.7.1.201405082137'
+		destinationFile = file("../build/jacoco/jacoco.exec")
+		append = true
+	}
+}
 
 sourceSets{
 	main{
@@ -18,5 +27,5 @@ repositories{
 }
 
 dependencies{
-	'junit:junit:4.12'
+	compile 'junit:junit:4.12'
 }
