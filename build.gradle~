@@ -18,5 +18,5 @@ repositories{
 }
 
 dependencies{
-	compile 'junit:junit:4.12'
+	'junit:junit:4.12'
 }
